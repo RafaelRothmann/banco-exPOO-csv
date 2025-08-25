@@ -38,7 +38,7 @@ public class script {
 
     public static void main(String[] args) {
         String arquivo = "clientes-v1.csv";
-        int quantidade = 1000000;
+        int quantidade = 100;
         gerarCSV(arquivo, quantidade);
         System.out.println("Arquivo '" + arquivo + "' gerado com sucesso!");
     }
